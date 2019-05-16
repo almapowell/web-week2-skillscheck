@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 7vh;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+
+}
+
+.HL {
+    font-size: 40px;
+    position: relative;
+ 
+}
+
+.HR {
+    font-size: 15px;
+    align-items: center;
+    position: relative;
+    left: 1450px;
+    bottom: 10px;
+}
+
+#main{
+    height: 250px;
+    width: 2283px;
+    background-color: black;
+    padding: 10 100%;
+    position: relative;
+    right:380px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: yellow;
+    font-size: 70px;
+    margin-bottom: 100px;
+}
+
+body > div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(22, 232, 240);
+    margin: 80px;
+    border-radius: 15px;
+
+}
+
+.Box1 {
+    position: static;
+}
+
+.Box2 {
+    position: relative;
+    left: 770px;
+    bottom: 270px;
+}
+
+.Box3 {
+    position: relative;
+    left: 1540px;
+    bottom: 540px;
+}
+
+.longbox1 {
+    height: 200px;
+    width: 400px;
+    background-color: orange;
+    margin: 20px;
+    position: relative;
+    bottom:500px; 
+    left: 325px;
+}
+
+.longbox2 {
+    height: 200px;
+    width: 400px;
+    background-color: orange;
+    margin: 20px;
+    position: relative;
+    bottom: 720px;
+    left: 1100px;
+}
+
+p {
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+    text-indent: 2em;
+}
+
+img {
+    position: relative;
+    bottom: 800px;
+    left: 1100px;
+}
+
+footer {
+    height: 200px;
+    background-color: rgb(143, 135, 135);
+    width: 100%;
+}
